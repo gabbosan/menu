@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px;
+  color: #222;
+}
+
+.erro {
+  color: #b00020;
+}
+
+.sucesso {
+  color: #0a7d2a;
+}
+
+.produto {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.variantes button {
+  margin: 4px 4px 0 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 320px;
+}
+
+.lista-pedidos li {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.login form {
+  margin: 0 auto;
+}
